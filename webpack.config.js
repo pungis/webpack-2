@@ -14,7 +14,6 @@ module.exports = {
   },
   module: {
     rules: [
-
         {
             test: /\.js$/,
             use: [
@@ -23,7 +22,6 @@ module.exports = {
                     options: {
                         presets: ['es2015', 'stage-0','stage-2']
                     }
-
                 }
             ]
         },
@@ -38,7 +36,6 @@ module.exports = {
             test: /\.html$/,
             use: ['html-loader']
         },
-
         {
             test: /\.(ttf|eot|svg|woff)$/,
             use: [
@@ -51,7 +48,6 @@ module.exports = {
             }
             ]
         },
-
         {
             test: /\.(jpg|png|gif|svg)$/,
             use: [
